@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Nexus - Advanced Digital Solutions for Modern Businesses. Transform your digital experience with our cutting-edge platform.">
+    <meta name="keywords" content="digital solutions, business technology, SaaS platform, enterprise software">
+    <meta name="author" content="Nexus Technologies">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <title>Nexus | Advanced Digital Solutions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="preconnect" href="https://formspree.io">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+                Oxygen-Sans, Ubuntu, Cantarell, sans-serif;
+        }
+
+        .testimonials-section .swiper-slide,
+        .case-study-card,
+        .testimonial-card {
+            opacity: 1 !important;
+        }
+
+        @media (max-width: 768px) {
+            .nav-actions .btn {
+                display: none;
+            }
+
+            .nav-actions .mobile-menu-toggle {
+                display: flex;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .nav-links.active {
+                display: flex;
+            }
+        }
+    </style>
+    <link rel="icon" type="image/png" href="https://via.placeholder.com/32x32.png?text=NX">
+</head>
+
+<body>
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-spinner">
+                <div class="spinner-sector spinner-sector-red"></div>
+                <div class="spinner-sector spinner-sector-blue"></div>
+                <div class="spinner-sector spinner-sector-green"></div>
+            </div>
+            <div class="preloader-progress">
+                <div class="preloader-progress-bar"></div>
+            </div>
+            <p class="preloader-percentage">0%</p>
+        </div>
+    </div>
+
+    <div id="particles-js"></div>
+
+    <div class="video-background">
+        <video autoplay muted loop playsinline>
+            <source src="https://assets.mixkit.co/videos/preview/mixkit-digital-animation-of-blue-circuits-97.mp4"
+                type="video/mp4">
+        </video>
+        <div class="video-overlay"></div>
+    </div>
+
+    <div class="main-container">
+
+        <header class="header">
+            <div class="container">
+                <nav class="navbar">
+                    <a href="#" class="logo">
+                        <img src="./logoo-removebg-preview.png" class="logo-light" alt="Nexus Logo">
+                        <img src="./logoo-removebg-preview.png" class="logo-dark" alt="Nexus Logo">
+                    </a>
+
+                    <div class="nav-links">
+                        <a href="#features" class="nav-link">Features</a>
+                        <a href="#solutions" class="nav-link">Solutions</a>
+                        <a href="#pricing" class="nav-link">Pricing</a>
+                        <a href="#resources" class="nav-link">Resources</a>
+                        <a href="#contact" class="nav-link">Contact</a>
+                    </div>
+
+                    <div class="nav-actions">
+                        <button class="theme-toggle" aria-label="Toggle dark mode">
+                            <i class="fas fa-moon"></i>
+                            <i class="fas fa-sun"></i>
+                        </button>
+                        <a href="login.html" class="btn btn-outline">Sign In</a>
+                        <a href="register.html" class="btn btn-primary">Get Started</a>
+                        <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <section class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        <span class="text-gradient">Transform</span> Your Digital Experience
+                    </h1>
+                    <p class="hero-subtitle">Advanced solutions for modern businesses. Harness the power of cutting-edge
+                        technology with our enterprise-grade platform.</p>
+
+                    <div class="hero-actions">
+                        <a href="register.html" class="btn btn-primary btn-lg">Start Free Trial</a>
+                        <button class="btn btn-ghost btn-lg" id="demo-video-trigger">
+                            <i class="fas fa-play-circle"></i>
+                            Watch Demo
+                        </button>
+                    </div>
+
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <div class="stat-value" data-count="250">0</div>
+                            <div class="stat-label">Global Clients</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value" data-count="99.9">0</div>
+                            <div class="stat-label">% Uptime</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value" data-count="24">0</div>
+                            <div class="stat-label">/7 Support</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <div class="image-container">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80"
+                            alt="Dashboard Preview" class="main-image">
+                        <div class="floating-card card-1">
+                            <i class="fas fa-chart-line"></i>
+                            <div class="card-content">
+                                <div class="card-value">+45%</div>
+                                <div class="card-label">Revenue Growth</div>
+                            </div>
+                        </div>
+                        <div class="floating-card card-2">
+                            <i class="fas fa-users"></i>
+                            <div class="card-content">
+                                <div class="card-value">1.2K</div>
+                                <div class="card-label">Active Users</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="clients-section">
+            <div class="container">
+                <p class="section-label">Trusted by industry leaders</p>
+                <div class="clients-grid">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"
+                        style="width:150px;height:50px;object-fit:contain" alt="Apple Logo">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/96/Microsoft_logo_%282012%29.svg"
+                        style="width:250px;height:50px;object-fit:contain" alt="Microsoft Logo">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg"
+                        style="width:150px;height:50px;object-fit:contain" alt="Amazon Logo">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg"
+                        style="width:150px;height:50px;object-fit:contain" alt="IBM Logo">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Intel_logo_%282006-2020%29.svg"
+                        style="width:150px;height:50px;object-fit:contain" alt="Intel Logo">
+                </div>
+            </div>
+        </section>
+
+        <section class="features-section" id="features">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-label">Features</p>
+                    <h2 class="section-title">Powerful Features for <span class="text-gradient">Your Business</span>
+                    </h2>
+                    <p class="section-description">Discover how our platform can transform your workflow with these
+                        cutting-edge features</p>
+                </div>
+
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3 class="feature-title">Performance Boost</h3>
+                        <p class="feature-description">Optimize your operations with our high-performance processing
+                            engine that handles millions of transactions per second.</p>
+                        <a href="#performance-feature" class="feature-link">
+                            Learn more
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3 class="feature-title">Advanced Security</h3>
+                        <p class="feature-description">Enterprise-grade security with end-to-end encryption, SOC 2
+                            compliance, and
+                            multi-factor authentication to protect your data.</p>
+                        <a href="#security-feature" class="feature-link">
+                            Learn more
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-chart-pie"></i>
+                        </div>
+                        <h3 class="feature-title">Real-time Analytics</h3>
+                        <p class="feature-description">Get actionable insights with our powerful analytics dashboard
+                            that updates in real-time with AI-powered recommendations.</p>
+                        <a href="#analytics-feature" class="feature-link">
+                            Learn more
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-cogs"></i>
+                        </div>
+                        <h3 class="feature-title">Custom Workflows</h3>
+                        <p class="feature-description">Create tailored workflows that match your business processes with
+                            our intuitive drag-and-drop builder and automation tools.</p>
+                        <a href="#workflows-feature" class="feature-link">
+                            Learn more
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h3 class="feature-title">AI Automation</h3>
+                        <p class="feature-description">Leverage artificial intelligence to automate repetitive tasks,
+                            predict trends, and focus on what matters most.</p>
+                        <a href="#ai-feature" class="feature-link">
+                            Learn more
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+
+                    <div class="feature-card">
+                        <div class="feature-icon">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <h3 class="feature-title">Cloud Integration</h3>
+                        <p class="feature-description">Seamless integration with all major cloud providers for flexible
+                            deployment options and hybrid cloud solutions.</p>
+                        <a href="#cloud-feature" class="feature-link">
+                            Learn more
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="solutions-section" id="solutions">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-label">Solutions</p>
+                    <h2 class="section-title">Tailored Solutions for <span class="text-gradient">Your Industry</span>
+                    </h2>
+                    <p class="section-description">We provide specialized solutions designed for your specific business
+                        needs and challenges</p>
+                </div>
+
+                <div class="solutions-tabs">
+                    <div class="tabs-header">
+                        <button class="tab-button active" data-tab="finance">Finance</button>
+                        <button class="tab-button" data-tab="healthcare">Healthcare</button>
+                        <button class="tab-button" data-tab="education">Education</button>
+                        <button class="tab-button" data-tab="retail">Retail</button>
+                        <button class="tab-button" data-tab="manufacturing">Manufacturing</button>
+                    </div>
+
+                    <div class="tabs-content">
+
+                        <div class="tab-pane active" id="finance">
+                            <div class="solution-content">
+                                <div class="solution-text">
+                                    <h3>Financial Services Revolutionized</h3>
+                                    <p>Our financial solutions provide real-time analytics, fraud detection, and
+                                        regulatory compliance tools that give you the edge in today's competitive
+                                        market.</p>
+                                    <ul class="solution-features">
+                                        <li>AI-powered risk assessment and fraud detection</li>
+                                        <li>Blockchain integration for secure transactions</li>
+                                        <li>Real-time transaction monitoring and alerts</li>
+                                        <li>Custom reporting for compliance (GDPR, PCI DSS)</li>
+                                        <li>Secure document management with version control</li>
+                                        <li>Multi-currency and multi-language support</li>
+                                    </ul>
+                                    <a href="finance-solutions.html" class="btn btn-primary">Explore Financial
+                                        Solutions</a>
+                                </div>
+                                <div class="solution-image">
+                                    <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80"
+                                        alt="Finance Solution">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="healthcare">
+                            <div class="solution-content">
+                                <div class="solution-text">
+                                    <h3>Healthcare Innovation</h3>
+                                    <p>Secure patient data management and AI-powered diagnostics solutions that help
+                                        healthcare providers deliver better outcomes while maintaining compliance.</p>
+                                    <ul class="solution-features">
+                                        <li>HIPAA-compliant storage and data handling</li>
+                                        <li>Telemedicine integration with video conferencing</li>
+                                        <li>Patient monitoring systems with IoT devices</li>
+                                        <li>AI diagnostics support with explainable AI</li>
+                                        <li>Electronic health records with cross-platform sync</li>
+                                        <li>Appointment scheduling with automated reminders</li>
+                                    </ul>
+                                    <a href="healthcare-solutions.html" class="btn btn-primary">Explore Healthcare
+                                        Solutions</a>
+                                </div>
+                                <div class="solution-image">
+                                    <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80"
+                                        alt="Healthcare Solution">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="education">
+                            <div class="solution-content">
+                                <div class="solution-text">
+                                    <h3>Education Technology</h3>
+                                    <p>Comprehensive learning management systems that empower educators and engage
+                                        students in new ways with personalized learning paths.</p>
+                                    <ul class="solution-features">
+                                        <li>Virtual classroom integration with interactive tools</li>
+                                        <li>Student progress tracking with predictive analytics</li>
+                                        <li>Interactive learning modules with gamification</li>
+                                        <li>AI-powered assessments and grading automation</li>
+                                        <li>Parent-teacher portals with real-time updates</li>
+                                        <li>Content management system with version history</li>
+                                    </ul>
+                                    <a href="education-solutions.html" class="btn btn-primary">Explore Education
+                                        Solutions</a>
+                                </div>
+                                <div class="solution-image">
+                                    <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80"
+                                        alt="Education Solution">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="retail">
+                            <div class="solution-content">
+                                <div class="solution-text">
+                                    <h3>Retail Solutions</h3>
+                                    <p>Omnichannel retail management and customer engagement platforms that drive sales
+                                        and loyalty with personalized experiences.</p>
+                                    <ul class="solution-features">
+                                        <li>Inventory management with predictive restocking</li>
+                                        <li>POS integration with offline capability</li>
+                                        <li>Customer analytics with segmentation</li>
+                                        <li>E-commerce integration with headless architecture</li>
+                                        <li>Personalized recommendations engine</li>
+                                        <li>Loyalty program management with gamification</li>
+                                    </ul>
+                                    <a href="retail-solutions.html" class="btn btn-primary">Explore Retail Solutions</a>
+                                </div>
+                                <div class="solution-image">
+                                    <img src="https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80"
+                                        alt="Retail Solution">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="tab-pane" id="manufacturing">
+                            <div class="solution-content">
+                                <div class="solution-text">
+                                    <h3>Smart Manufacturing</h3>
+                                    <p>Industry 4.0 solutions for optimized production processes and supply chain
+                                        management with IoT and predictive analytics.</p>
+                                    <ul class="solution-features">
+                                        <li>IoT device integration with edge computing</li>
+                                        <li>Predictive maintenance with ML algorithms</li>
+                                        <li>Supply chain optimization with blockchain</li>
+                                        <li>Quality control systems with computer vision</li>
+                                        <li>Asset tracking with RFID and GPS</li>
+                                        <li>Production scheduling with constraint programming</li>
+                                    </ul>
+                                    <a href="manufacturing-solutions.html" class="btn btn-primary">Explore Manufacturing
+                                        Solutions</a>
+                                </div>
+                                <div class="solution-image">
+                                    <img src="https://images.unsplash.com/photo-1485827404703-89b55fcc595e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80"
+                                        alt="Manufacturing Solution">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pricing-section" id="pricing">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-label">Pricing</p>
+                    <h2 class="section-title">Simple, Transparent <span class="text-gradient">Pricing</span></h2>
+                    <p class="section-description">Choose the perfect plan for your business needs with our flexible
+                        pricing options</p>
+                </div>
+
+                <div class="pricing-toggle">
+                    <span>Monthly</span>
+                    <label class="toggle-switch">
+                        <input type="checkbox" id="pricing-toggle">
+                        <span class="slider"></span>
+                    </label>
+                    <span>Annual <span class="discount-badge">Save 20%</span></span>
+                </div>
+
+                <div class="pricing-grid">
+                    <div class="pricing-card">
+                        <h3>Starter</h3>
+                        <div class="price">
+                            <span class="monthly-price">$99</span>
+                            <span class="annual-price">$79</span>
+                            <span>/month</span>
+                        </div>
+                        <p class="price-description">Perfect for small teams getting started</p>
+                        <ul class="features">
+                            <li><i class="fas fa-check"></i> Basic Features</li>
+                            <li><i class="fas fa-check"></i> Up to 5 Team Members</li>
+                            <li><i class="fas fa-check"></i> 24/7 Email Support</li>
+                            <li><i class="fas fa-check"></i> 1 GB Storage</li>
+                            <li><i class="fas fa-check"></i> Standard Analytics</li>
+                            <li><i class="fas fa-check"></i> Community Access</li>
+                        </ul>
+                        <a href="register.html?plan=starter" class="btn btn-primary btn-block">Get Started</a>
+                    </div>
+
+                    <div class="pricing-card popular">
+                        <div class="popular-badge">Most Popular</div>
+                        <h3>Professional</h3>
+                        <div class="price">
+                            <span class="monthly-price">$299</span>
+                            <span class="annual-price">$239</span>
+                            <span>/month</span>
+                        </div>
+                        <p class="price-description">For growing businesses with advanced needs</p>
+                        <ul class="features">
+                            <li><i class="fas fa-check"></i> All Starter Features</li>
+                            <li><i class="fas fa-check"></i> Up to 20 Team Members</li>
+                            <li><i class="fas fa-check"></i> Priority Support</li>
+                            <li><i class="fas fa-check"></i> 10 GB Storage</li>
+                            <li><i class="fas fa-check"></i> Advanced Analytics</li>
+                            <li><i class="fas fa-check"></i> API Access</li>
+                            <li><i class="fas fa-check"></i> Custom Workflows</li>
+                        </ul>
+                        <a href="register.html?plan=professional" class="btn btn-primary btn-block">Get Started</a>
+                    </div>
+
+                    <div class="pricing-card">
+                        <h3>Enterprise</h3>
+                        <div class="price">
+                            <span>Custom</span>
+                        </div>
+                        <p class="price-description">Tailored solutions for large organizations</p>
+                        <ul class="features">
+                            <li><i class="fas fa-check"></i> All Professional Features</li>
+                            <li><i class="fas fa-check"></i> Unlimited Team Members</li>
+                            <li><i class="fas fa-check"></i> 24/7 Premium Support</li>
+                            <li><i class="fas fa-check"></i> Custom Storage</li>
+                            <li><i class="fas fa-check"></i> Custom Analytics</li>
+                            <li><i class="fas fa-check"></i> Dedicated Account Manager</li>
+                            <li><i class="fas fa-check"></i> On-premise Deployment</li>
+                            <li><i class="fas fa-check"></i> SLA Guarantee</li>
+                        </ul>
+                        <a href="contact.html?plan=enterprise" class="btn btn-outline btn-block">Contact Sales</a>
+                    </div>
+                </div>
+
+                <div class="pricing-footer">
+                    <p>Need help deciding? <a href="contact.html">Contact our sales team</a> for a personalized
+                        recommendation.</p>
+                    <p>All plans come with a 14-day free trial. No credit card required.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials-section">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-label">Testimonials</p>
+                    <h2 class="section-title">What Our <span class="text-gradient">Clients Say</span></h2>
+                    <p class="section-description">Hear from businesses that have transformed their operations with
+                        Nexus</p>
+                </div>
+
+                <div class="swiper testimonials-swiper">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="testimonial-text">"The platform has transformed our operations, reducing
+                                    processing time by 60% while improving accuracy. The AI-powered analytics have given
+                                    us insights we never had before."</p>
+                                <div class="testimonial-author">
+                                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah Johnson"
+                                        class="author-avatar">
+                                    <div class="author-info">
+                                        <h4 class="author-name">Sarah Johnson</h4>
+                                        <p class="author-title">CTO, FinTech Solutions</p>
+                                        <p class="author-company">$50M Revenue | 200 Employees</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                                <p class="testimonial-text">"Their retail platform helped us unify online and in-store
+                                    operations, resulting in a 30% increase in sales. The customer segmentation tools
+                                    are incredibly powerful."</p>
+                                <div class="testimonial-author">
+                                    <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Michael Chen"
+                                        class="author-avatar">
+                                    <div class="author-info">
+                                        <h4 class="author-name">Michael Chen</h4>
+                                        <p class="author-title">CEO, Urban Retail</p>
+                                        <p class="author-company">150 Locations | 1,200 Employees</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="testimonial-text">"As a healthcare provider, security and compliance were our
+                                    top concerns. Nexus delivered a HIPAA-compliant solution that improved our patient
+                                    outcomes by 25%."</p>
+                                <div class="testimonial-author">
+                                    <img src="https://randomuser.me/api/portraits/women/68.jpg"
+                                        alt="Dr. Amanda Rodriguez" class="author-avatar">
+                                    <div class="author-info">
+                                        <h4 class="author-name">Dr. Amanda Rodriguez</h4>
+                                        <p class="author-title">Medical Director, HealthFirst</p>
+                                        <p class="author-company">25 Clinics | 300 Medical Staff</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <p class="testimonial-text">"The manufacturing analytics helped us reduce downtime by
+                                    40% and improve our production efficiency. The predictive maintenance features alone
+                                    paid for the platform."</p>
+                                <div class="testimonial-author">
+                                    <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Robert Williams"
+                                        class="author-avatar">
+                                    <div class="author-info">
+                                        <h4 class="author-name">Robert Williams</h4>
+                                        <p class="author-title">Operations Director, SteelTech</p>
+                                        <p class="author-company">$300M Revenue | 5 Factories</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="case-studies-section">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-label">Case Studies</p>
+                    <h2 class="section-title">Real-World <span class="text-gradient">Success Stories</span></h2>
+                    <p class="section-description">See how businesses like yours achieved measurable results with Nexus
+                    </p>
+                </div>
+
+                <div class="case-studies-grid">
+                    <div class="case-study-card">
+                        <div class="case-study-image">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+                                alt="Financial Services Case Study">
+                            <div class="case-study-overlay">
+                                <h3>Financial Services</h3>
+                                <p>How a fintech company reduced fraud by 65%</p>
+                                <a href="case-study-finance.html" class="btn btn-ghost">Read Case Study</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="case-study-card">
+                        <div class="case-study-image">
+                            <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+                                alt="Healthcare Case Study">
+                            <div class="case-study-overlay">
+                                <h3>Healthcare</h3>
+                                <p>Hospital network improves patient outcomes by 30%</p>
+                                <a href="case-study-healthcare.html" class="btn btn-ghost">Read Case Study</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="case-study-card">
+                        <div class="case-study-image">
+                            <img src="https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+                                alt="Retail Case Study">
+                            <div class="case-study-overlay">
+                                <h3>Retail</h3>
+                                <p>Omnichannel strategy boosts sales by 45%</p>
+                                <a href="case-study-retail.html" class="btn btn-ghost">Read Case Study</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="case-studies-cta">
+                    <a href="case-studies.html" class="btn btn-outline">View All Case Studies</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="resources-section" id="resources">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-label">Resources</p>
+                    <h2 class="section-title">Helpful <span class="text-gradient">Resources</span></h2>
+                    <p class="section-description">Explore our knowledge base and learning materials to get the most
+                        from Nexus</p>
+                </div>
+
+                <div class="resources-grid">
+                    <div class="resource-card">
+                        <i class="fas fa-book"></i>
+                        <h4>Documentation</h4>
+                        <p>Complete technical documentation and API references for developers and administrators.</p>
+                        <a href="documentation.html" class="btn btn-ghost">Read Docs</a>
+                    </div>
+
+                    <div class="resource-card">
+                        <i class="fas fa-video"></i>
+                        <h4>Video Tutorials</h4>
+                        <p>Step-by-step video guides and webinars to help you get started and master advanced features.
+                        </p>
+                        <a href="tutorials.html" class="btn btn-ghost">Watch Videos</a>
+                    </div>
+
+                    <div class="resource-card">
+                        <i class="fas fa-blog"></i>
+                        <h4>Blog</h4>
+                        <p>Latest industry insights, product updates, and best practices from our experts.</p>
+                        <a href="blog.html" class="btn btn-ghost">Read Blog</a>
+                    </div>
+
+                    <div class="resource-card">
+                        <i class="fas fa-file-alt"></i>
+                        <h4>Case Studies</h4>
+                        <p>Real-world examples of businesses transforming with our solutions.</p>
+                        <a href="case-studies.html" class="btn btn-ghost">View Cases</a>
+                    </div>
+
+                    <div class="resource-card">
+                        <i class="fas fa-question-circle"></i>
+                        <h4>FAQ</h4>
+                        <p>Answers to common questions about our products and services.</p>
+                        <a href="faq.html" class="btn btn-ghost">View FAQ</a>
+                    </div>
+
+                    <div class="resource-card">
+                        <i class="fas fa-calendar-alt"></i>
+                        <h4>Webinars</h4>
+                        <p>Live and recorded sessions with our product experts and industry leaders.</p>
+                        <a href="webinars.html" class="btn btn-ghost">Join Webinar</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="integrations-section">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-label">Integrations</p>
+                    <h2 class="section-title">Seamless <span class="text-gradient">Connections</span></h2>
+                    <p class="section-description">Nexus works with the tools you already use</p>
+                </div>
+
+                <div class="integrations-grid">
+                    <div class="integration-card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Salesforce.com_logo.svg"
+                            alt="Salesforce">
+                        <h4>Salesforce</h4>
+                        <p>Sync customer data and automate workflows</p>
+                    </div>
+                    <div class="integration-card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Slack_icon_2019.svg" alt="Slack">
+                        <h4>Slack</h4>
+                        <p>Get real-time notifications and alerts</p>
+                    </div>
+                    <div class="integration-card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Zoom_Communications_Logo.svg"
+                            alt="Zoom">
+                        <h4>Zoom</h4>
+                        <p>Integrated video conferencing</p>
+                    </div>
+                    <div class="integration-card">
+                        <img src="https://cdn.worldvectorlogo.com/logos/quickbooks.svg" alt="QuickBooks">
+                        <h4>QuickBooks</h4>
+                        <p>Automated financial reporting</p>
+                    </div>
+                    <div class="integration-card">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Shopify_logo_2018.svg"
+                            alt="Shopify">
+                        <h4>Shopify</h4>
+                        <p>E-commerce integration</p>
+                    </div>
+                    <div class="integration-card">
+                        <img src="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20viewBox%3D%220%200%20150%2040%22%3E%3Cpath%20d%3D%22M%20107.23%2010.23%20L%20100.561%2010.23%20L%20100.561%2032.98%20L%20107.23%2032.98%20Z%22%20fill%3D%22rgb(255%2C253%2C249)%22%3E%3C%2Fpath%3E%3Cpath%20d%3D%22M%20103.966%207.5%20C%20104.465%207.515%20104.963%207.429%20105.426%207.247%20C%20105.89%207.064%20106.31%206.79%20106.662%206.44%20C%20107.006%206.082%20107.272%205.659%20107.447%205.197%20C%20107.621%204.735%20107.699%204.243%20107.676%203.75%20C%20107.699%203.259%20107.618%202.769%20107.439%202.311%20C%20107.258%201.853%20106.983%201.437%20106.632%201.09%20C%20106.28%200.743%20105.858%200.472%20105.394%200.294%20C%20104.93%200.117%20104.433%200.037%20103.936%200.06%20C%20103.436%200.037%20102.938%200.114%20102.469%200.286%20C%20102.001%200.458%20101.572%200.721%20101.209%201.06%20C%20100.852%201.405%20100.572%201.82%20100.387%202.278%20C%20100.202%202.736%20100.116%203.227%20100.135%203.72%20C%20100.117%204.217%20100.203%204.713%20100.388%205.175%20C%20100.573%205.638%20100.853%206.059%20101.209%206.41%20C%20101.567%206.77%20101.998%207.052%20102.472%207.24%20C%20102.947%207.428%20103.455%207.516%20103.966%207.5%20Z%22%20fill%3D%22rgb(255%2C253%2C249)%22%3E%3C%2Fpath%3E%3Cpath%20d%3D%22M%20115.804%2032.1%20C%20117.734%2033.143%20119.909%2033.664%20122.108%2033.61%20C%20123.899%2033.666%20125.684%2033.37%20127.358%2032.74%20C%20128.64%2032.249%20129.779%2031.452%20130.672%2030.42%20C%20131.487%2029.413%20132.078%2028.248%20132.405%2027%20L%20126.659%2025.42%20C%20126.395%2026.233%20125.908%2026.956%20125.25%2027.51%20C%20124.378%2028.159%20123.299%2028.476%20122.209%2028.4%20C%20121.451%2028.456%20120.69%2028.336%20119.987%2028.052%20C%20119.283%2027.767%20118.656%2027.325%20118.155%2026.76%20C%20117.35%2025.636%20116.904%2024.298%20116.878%2022.92%20L%20132.679%2022.92%20C%20132.735%2022.459%20132.765%2021.995%20132.77%2021.53%20L%20132.77%2020.28%20C%20132.81%2018.377%20132.411%2016.489%20131.605%2014.76%20C%20130.849%2013.186%20129.625%2011.875%20128.098%2011%20C%20126.301%2010.024%20124.269%209.551%20122.22%209.63%20C%20118.49%209.63%20115.571%2010.677%20113.463%2012.77%20C%20111.345%2014.87%20110.301%2017.77%20110.301%2021.44%20C%20110.248%2023.666%20110.738%2025.871%20111.73%2027.87%20C%20112.648%2029.637%20114.062%2031.106%20115.804%2032.1%20Z%20M%20122.007%2014.65%20C%20124.865%2014.65%20126.416%2016.217%20126.659%2019.35%20L%20116.959%2019.35%20C%20117.067%2018.245%20117.465%2017.187%20118.115%2016.28%20C%20118.588%2015.726%20119.187%2015.29%20119.864%2015.007%20C%20120.54%2014.724%20121.274%2014.602%20122.007%2014.65%20Z%22%20fill%3D%22rgb(255%2C253%2C249)%22%3E%3C%2Fpath%3E%3Cpath%20d%3D%22M%20142.439%2021.32%20C%20142.35%2020.109%20142.71%2018.908%20143.453%2017.94%20C%20144.142%2017.15%20145.48%2016.76%20147.314%2016.76%20L%20149.848%2016.76%20L%20149.848%2010.23%20L%20148.52%2010.23%20C%20147.672%2010.198%20146.828%2010.363%20146.055%2010.71%20C%20145.283%2011.057%20144.604%2011.578%20144.071%2012.23%20C%20143.327%2013.216%20142.796%2014.343%20142.51%2015.54%20L%20142.216%2015.54%20L%20141.466%2010.26%20L%20135.78%2010.26%20L%20135.78%2033%20L%20142.439%2033%20Z%22%20fill%3D%22rgb(255%2C253%2C249)%22%3E%3C%2Fpath%3E%3Cpath%20d%3D%22M%2026.757%2027.42%20L%2026.757%2033%20L%2047.868%2033%20L%2047.868%2027.44%20L%2035.341%2027.44%20L%2035.159%2026.9%20L%2047.676%2015.8%20L%2047.676%2010.23%20L%2027.142%2010.23%20L%2027.142%2015.8%20L%2038.919%2015.8%20L%2039.122%2016.36%20Z%22%20fill%3D%22rgb(255%2C253%2C249)%22%3E%3C%2Fpath%3E%3Cpath%20d%3D%22M%2057.02%2017.62%20C%2057.192%2016.871%2057.631%2016.207%2058.257%2015.75%20C%2058.991%2015.302%2059.847%2015.086%2060.709%2015.13%20C%2061.215%2015.088%2061.724%2015.156%2062.2%2015.329%20C%2062.676%2015.501%2063.109%2015.775%2063.466%2016.13%20C%2064.082%2016.936%2064.384%2017.933%2064.318%2018.94%20L%2064.318%2019.94%20L%2058.328%2019.94%20C%2055.28%2019.94%2053.091%2020.58%2051.76%2021.86%20C%2051.089%2022.508%2050.561%2023.288%2050.213%2024.149%20C%2049.863%2025.01%2049.7%2025.933%2049.733%2026.86%20C%2049.657%2027.791%2049.8%2028.727%2050.152%2029.595%20C%2050.503%2030.462%2051.054%2031.237%2051.76%2031.86%20C%2053.295%2033.005%2055.189%2033.582%2057.111%2033.49%20C%2058.113%2033.526%2059.111%2033.343%2060.033%2032.955%20C%2060.954%2032.566%2061.777%2031.98%2062.443%2031.24%20C%2063.193%2030.38%2063.767%2029.385%2064.135%2028.31%20L%2064.51%2028.31%20L%2065.24%2033.01%20L%2070.875%2033.01%20L%2070.875%2018.87%20C%2071.035%2016.398%2070.197%2013.964%2068.544%2012.1%20C%2066.983%2010.5%2064.49%209.7%2060.953%209.7%20C%2059.139%209.65%2057.332%209.945%2055.632%2010.57%20C%2054.326%2011.062%2053.186%2011.904%2052.338%2013%20C%2051.531%2014.1%2051.006%2015.376%2050.807%2016.72%20Z%20M%2059.453%2028.18%20C%2058.56%2028.273%2057.663%2028.034%2056.939%2027.51%20C%2056.497%2027.055%2056.25%2026.45%2056.25%2025.82%20C%2056.25%2025.19%2056.497%2024.584%2056.939%2024.13%20C%2057.459%2023.674%2058.14%2023.44%2058.834%2023.48%20L%2064.338%2023.48%20L%2064.338%2024.25%20C%2064.35%2024.791%2064.235%2025.328%2064.003%2025.819%20C%2063.771%2026.309%2063.428%2026.741%2063%2027.08%20C%2061.986%2027.862%2060.718%2028.254%2059.432%2028.18%20Z%22%20fill%3D%22rgb(255%2C253%2C249)%22%3E%3C%2Fpath%3E%3Cpath%20d%3D%22M%2081.294%2028.28%20L%2081.629%2028.28%20C%2081.825%2028.842%2082.069%2029.388%2082.358%2029.91%20C%2083.001%2031.124%2083.992%2032.126%2085.206%2032.79%20C%2086.355%2033.376%2087.632%2033.675%2088.926%2033.66%20C%2090.179%2033.71%2091.425%2033.44%2092.542%2032.876%20C%2093.659%2032.312%2094.609%2031.473%2095.301%2030.44%20C%2096.791%2028.3%2097.541%2025.3%2097.541%2021.44%20C%2097.541%2017.58%2096.811%2014.83%2095.351%2012.73%20C%2094.63%2011.699%2093.651%2010.868%2092.51%2010.318%20C%2091.368%209.768%2090.103%209.517%2088.835%209.59%20C%2087.841%209.555%2086.851%209.727%2085.93%2010.094%20C%2085.008%2010.461%2084.174%2011.015%2083.483%2011.72%20C%2082.497%2012.805%2081.766%2014.093%2081.345%2015.49%20L%2081.071%2015.49%20L%2080.321%2010.21%20L%2074.635%2010.21%20L%2074.635%2039.49%20L%2081.304%2039.49%20Z%20M%2086.159%2015.51%20C%2086.858%2015.449%2087.561%2015.563%2088.204%2015.841%20C%2088.847%2016.119%2089.409%2016.552%2089.838%2017.1%20C%2090.674%2018.417%2091.075%2019.958%2090.983%2021.51%20C%2091.079%2023.119%2090.68%2024.719%2089.838%2026.1%20C%2089.421%2026.657%2088.868%2027.101%2088.23%2027.39%20C%2087.591%2027.678%2086.889%2027.802%2086.189%2027.75%20C%2085.506%2027.783%2084.825%2027.654%2084.202%2027.373%20C%2083.58%2027.093%2083.035%2026.67%2082.612%2026.14%20C%2081.687%2024.864%2081.233%2023.315%2081.324%2021.75%20L%2081.324%2021.32%20C%2081.214%2019.774%2081.671%2018.241%2082.612%2017%20C%2083.052%2016.506%2083.6%2016.115%2084.214%2015.857%20C%2084.828%2015.599%2085.492%2015.481%2086.159%2015.51%20Z%22%20fill%3D%22rgb(255%2C253%2C249)%22%3E%3C%2Fpath%3E%3Cpath%20d%3D%22M%2023.057%2027.42%20L%200%2027.42%20L%200%2032.99%20L%2023.057%2032.99%20Z%22%20fill%3D%22rgb(255%2C79%2C0)%22%3E%3C%2Fpath%3E%3C%2Fsvg%3E"
+                            alt="Zapier">
+                        <h4>Zapier</h4>
+                        <p>Connect with 5,000+ apps</p>
+                    </div>
+                </div>
+
+                <div class="integrations-cta">
+                    <a href="integrations.html" class="btn btn-outline">View All Integrations</a>
+                    <a href="api-docs.html" class="btn btn-ghost">API Documentation</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <p class="section-label">Contact</p>
+                    <h2 class="section-title">Get In <span class="text-gradient">Touch</span></h2>
+                    <p class="section-description">We'd love to hear from you. Reach out for questions, demos, or
+                        support.</p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-form">
+                        <form id="contactForm" action="https://formspree.io/f/movdpalb" method="POST">
+                            <div class="form-group">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" class="form-control" placeholder="Your name"
+                                    required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" class="form-control"
+                                    placeholder="Your email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="company">Company</label>
+                                <input type="text" id="company" name="company" class="form-control"
+                                    placeholder="Your company">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <select id="subject" name="subject" class="form-control" required>
+                                    <option value="">Select a subject</option>
+                                    <option value="sales">Sales Inquiry</option>
+                                    <option value="support">Technical Support</option>
+                                    <option value="partnership">Partnership</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" class="form-control" rows="5"
+                                    placeholder="Your message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                            <input type="text" name="_gotcha" style="display:none">
+                            <input type="hidden" name="_subject" value="New Contact Form Submission">
+                            <input type="hidden" name="_next" value="/thank-you.html">
+                        </form>
+                    </div>
+
+                    <div class="contact-info">
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info-content">
+                                <h4>Office Address</h4>
+                                <p>123 Business Street, Tech City, TC 12345</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <div class="info-content">
+                                <h4>Phone</h4>
+                                <p>+1 (555) 123-4567</p>
+                                <p>Support: +1 (555) 987-6543</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info-content">
+                                <h4>Email</h4>
+                                <p>contact@nexuspro.com</p>
+                                <p>support@nexuspro.com</p>
+                            </div>
+                        </div>
+
+                        <div class="info-item">
+                            <i class="fas fa-clock"></i>
+                            <div class="info-content">
+                                <h4>Working Hours</h4>
+                                <p>Monday - Friday: 9AM - 6PM</p>
+                                <p>Support available 24/7</p>
+                            </div>
+                        </div>
+
+                        <div class="social-links">
+                            <h4>Follow Us</h4>
+                            <div class="social-icons">
+                                <a href="https://facebook.com/nexus" class="social-link" target="_blank"
+                                    rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://twitter.com/nexus" class="social-link" target="_blank"
+                                    rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                                <a href="https://linkedin.com/company/nexus" class="social-link" target="_blank"
+                                    rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://instagram.com/nexus" class="social-link" target="_blank"
+                                    rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                                <a href="https://youtube.com/nexus" class="social-link" target="_blank"
+                                    rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <div class="container">
+                <div class="cta-card">
+                    <div class="cta-content">
+                        <h2 class="cta-title">Ready to Transform Your Business?</h2>
+                        <p class="cta-description">Join thousands of companies who have already revolutionized their
+                            operations with our platform.</p>
+                        <div class="cta-actions">
+                            <a href="register.html" class="btn btn-primary btn-lg">Get Started Now</a>
+                            <a href="demo.html" class="btn btn-outline btn-lg">Schedule a Demo</a>
+                        </div>
+                    </div>
+                    <div class="cta-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80"
+                            alt="Get Started">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-col footer-about">
+                        <a href="#" class="footer-logo">
+                            <img src="./logoo-removebg-preview.png" class="logo-light" alt="Nexus Logo">
+                            <img src="logoo-removebg-preview.png" class="logo-dark" alt="Nexus Logo">
+                        </a>
+                        <p class="footer-about-text">Advanced digital solutions for the modern enterprise. Harness the
+                            power of cutting-edge technology to drive your business forward.</p>
+                        <div class="footer-social">
+                            <a href="https://facebook.com/nexus" aria-label="Facebook" target="_blank"
+                                rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://twitter.com/nexus" aria-label="Twitter" target="_blank"
+                                rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                            <a href="https://linkedin.com/company/nexus" aria-label="LinkedIn" target="_blank"
+                                rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://instagram.com" aria-label="Instagram" target="_blank"
+                                rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                            <a href="https://youtube.com/nexus" aria-label="YouTube" target="_blank"
+                                rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4 class="footer-title">Solutions</h4>
+                        <ul class="footer-links">
+                            <li><a href="finance-solutions.html">Finance</a></li>
+                            <li><a href="healthcare-solutions.html">Healthcare</a></li>
+                            <li><a href="education-solutions.html">Education</a></li>
+                            <li><a href="retail-solutions.html">Retail</a></li>
+                            <li><a href="manufacturing-solutions.html">Manufacturing</a></li>
+                            <li><a href="all-solutions.html">View All Solutions</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4 class="footer-title">Company</h4>
+                        <ul class="footer-links">
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="careers.html">Careers</a></li>
+                            <li><a href="press.html">Press</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="partners.html">Partners</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4 class="footer-title">Resources</h4>
+                        <ul class="footer-links">
+                            <li><a href="documentation.html">Documentation</a></li>
+                            <li><a href="tutorials.html">Tutorials</a></li>
+                            <li><a href="webinars.html">Webinars</a></li>
+                            <li><a href="case-studies.html">Case Studies</a></li>
+                            <li><a href="api-docs.html">API Reference</a></li>
+                            <li><a href="status.html">System Status</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4 class="footer-title">Support</h4>
+                        <ul class="footer-links">
+                            <li><a href="help-center.html">Help Center</a></li>
+                            <li><a href="community.html">Community</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="status.html">Status</a></li>
+                            <li><a href="feedback.html">Feedback</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-col" id="footer-col">
+                        <h4 class="footer-title">Subscribe</h4>
+                        <p class="footer-about-text">Get the latest news and updates delivered to your inbox.</p>
+                        <form class="footer-subscribe-form">
+                            <input type="email" placeholder="Your email" required>
+                            <button type="submit" class="btn btn-primary">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <p class="footer-copyright">© 2025 Nexus Technologies. All rights reserved.</p>
+                    <div class="footer-legal-links">
+                        <a href="privacy.html">Privacy Policy</a>
+                        <a href="terms.html">Terms of Service</a>
+                        <a href="cookies.html">Cookie Policy</a>
+                        <a href="gdpr.html">GDPR</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <button class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <div class="modal" id="demo-video-modal">
+        <div class="modal-content">
+            <button class="modal-close" aria-label="Close modal">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/9No-FiEInLA" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
